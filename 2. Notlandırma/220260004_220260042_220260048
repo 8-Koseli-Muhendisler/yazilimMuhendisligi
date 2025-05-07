@@ -1,1 +1,47 @@
+📌2. Notlandırma Raporu: Jira Kanban'da Görev Tanımlama
+Proje Adı: ESP32-CAM ile TinyML Tabanlı Nesne Tanıma Sistemi
+Tarih: [7.05.2025]
+Hazırlayan: [Hazan Yücel, Hacer Çadırcı, Esra Aslanboğa]
 
+🎯 Amaç
+Bu aşamada amacımız, projede yer alacak iş kalemlerini Agile proje yönetimi ilkeleri doğrultusunda planlamak ve Jira Kanban ortamına aktarmaktı. Böylece hem proje sürecinin takibi kolaylaşmış hem de kod geliştirme süreci ile proje yönetimi uyumlu hâle getirilmiş oldu.
+
+🔍 Yapılan Çalışmalar
+1. CSV dosyası biçiminde tüm Epic, Story ve Task’lar tanımlandı.
+Jira’nın desteklediği "Work type", "Summary", "Work item ID", "Parent" gibi sütunlarla yapılarak hiyerarşi korundu.
+Bu sayede Epic > Story > Task ilişkileri Jira'ya elle tek tek girmek yerine doğrudan aktarılabildi.
+
+2. CSV dosyası, Jira'nın "Import issues from CSV" özelliğiyle yüklenerek Kanban tahtasına yerleştirildi.
+Jira üzerinde "YM25" adında yeni bir yazılım projesi oluşturulmuştur.
+Proje tipi olarak Kanban şablonu seçilmiştir.
+
+3. Takım Üyeleri
+Projede aktif olarak çalışan tüm ekip üyeleri daha önce Jira ortamına giriş yaptığı gmail hesabıyla projeye admin rolüyle eklenmiştir.
+Her bir takım üyesine Jira içinden uygun görevler atanmıştır.
+
+4. Proje, kapsam ve hedeflerine göre modüler olarak aşamalara bölündü.
+Proje süreci 6 ana Epic altında sınıflandırıldı:
+- Ortam kurulumu
+- Veri edinimi
+- Model eğitimi
+- Model dağıtımı
+- Test ve optimizasyon
+- Dokümantasyon ve GitHub paylaşımı
+
+5. Her Epic için birden fazla User Story oluşturuldu.
+Story cümleleri, Jira’da önerilen formatta yazıldı:\
+“As a developer, I want to [...], so that I can [...].”
+
+6. Her Story için yapılması gereken adımlar Task’lar şeklinde belirlendi.
+Task’lar proje sürecindeki gerçek adımları yansıtan, eyleme dönük görevlerdir.
+Örnek: “Edge Impulse CLI’yi yükle”, “Veri setini düzenle”, “ESP32-CAM’e modeli yükle” vb.
+
+7. Görev Atamaları
+Tanımlanan issue'lar, takım üyelerinin uzmanlık alanlarına ve iş yüklerine göre atanmıştır.
+Her issue'ya Assignee belirlenmiş ve görev takibi başlatılmıştır.
+
+Ek-1: [YM25_Jira_Icerik.csv](https://github.com/8-Koseli-Muhendisler/yazilimMuhendisligi/blob/main/2.%20Notland%C4%B1rma/Jira_TinyML_Full_Issues.csv)
+→ Bu dosyada her bir öğe türü (issue type), başlığı, açıklaması, ilişkili olduğu parent issue bilgisi detaylı şekilde yer almaktadır.
+
+📌 Sonuç
+Bu aşamada Jira ortamında projeye özel tüm iş kalemleri, doğru hiyerarşi ve isimlendirme ile oluşturulmuştur. Proje süreci, Kanban üzerinden ilerletilmeye hazır hale getirilmiştir. Kod geliştirme sırasında yapılacak olan GitHub entegrasyonu ile Jira kartları ve kod değişiklikleri senkronize olarak izlenebilir olacaktır.
