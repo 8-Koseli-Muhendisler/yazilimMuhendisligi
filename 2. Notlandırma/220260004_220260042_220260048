@@ -4,7 +4,8 @@ Tarih: [7.05.2025]
 Hazırlayan: [Hazan Yücel, Hacer Çadırcı, Esra Aslanboğa]
 
 🎯 Amaç
-Bu aşamada amacımız, projede yer alacak iş kalemlerini Agile proje yönetimi ilkeleri doğrultusunda planlamak ve Jira Kanban ortamına aktarmaktı. Böylece hem proje sürecinin takibi kolaylaşmış hem de kod geliştirme süreci ile proje yönetimi uyumlu hâle getirilmiş oldu.
+Bu aşamada amacımız, projede yer alacak iş kalemlerini Agile proje yönetimi ilkeleri doğrultusunda planlamak ve Jira Kanban ortamına aktarmaktı.
+Böylece hem proje sürecinin takibi kolaylaşmış hem de kod geliştirme süreci ile proje yönetimi uyumlu hâle getirilmiş oldu.
 
 🔍 Yapılan Çalışmalar
 1. CSV dosyası biçiminde tüm Epic, Story ve Task’lar tanımlandı.
@@ -43,4 +44,6 @@ Tanımlanan issue'lar, takım üyelerinin uzmanlık alanlarına ve iş yüklerin
 Her issue'ya Assignee belirlenmiş ve görev takibi başlatılmıştır.
 
 📌 Sonuç
-Bu aşamada Jira ortamında projeye özel tüm iş kalemleri, doğru hiyerarşi ve isimlendirme ile oluşturulmuştur. Proje süreci, Kanban üzerinden ilerletilmeye hazır hale getirilmiştir. Kod geliştirme sırasında yapılacak olan GitHub entegrasyonu ile Jira kartları ve kod değişiklikleri senkronize olarak izlenebilir olacaktır.
+Bu aşamada Jira ortamında projeye özel tüm iş kalemleri, doğru hiyerarşi ve isimlendirme ile oluşturulmuştur.
+Proje süreci, Kanban üzerinden ilerletilmeye hazır hale getirilmiştir.
+Kod geliştirme sırasında yapılacak olan GitHub entegrasyonu ile Jira kartları ve kod değişiklikleri senkronize olarak izlenebilir olacaktır.
