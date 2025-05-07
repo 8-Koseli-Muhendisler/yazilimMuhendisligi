@@ -1,0 +1,50 @@
+Work type,Status,Summary,Work item ID,Parent
+Epic,Backlog,Edge Impulse Platformuna Giriş ve Ortam Kurulumu,1,
+Story,Backlog,"Bir geliştirici olarak, platform özelliklerine erişebilmek için bir Edge Impulse hesabı oluşturmak istiyorum.",2,1
+Task,Backlog,Edge Impulse hesabı oluştur,3,2
+Task,Backlog,E-posta doğrulamasını tamamla,4,2
+Task,Backlog,ESP32-CAM desteğini kontrol et,5,2
+Story,Backlog,"Bir geliştirici olarak Edge Impulse CLI araçlarını çalıştırabilmek için gerekli bağımlılıkları yüklemek istiyorum.",6,1
+Task,Backlog,Edge Impulse CLI'yi yükle,7,6
+Task,Backlog,Node.js ve Python bağımlılıklarını kur,8,6
+Task,Backlog,Seri port bağlantısını test et,9,6
+Epic,Backlog,Görüntü Verisinin Hazır Veri Setinden Edinilmesi,10,
+Story,Backlog,"Bir geliştirici olarak, eğitim amaçlı kullanabilmek için Kaggle'dan çiçek görseli veri setini indirmek istiyorum.",11,10
+Task,Backlog,Kaggle’dan çiçek veri setini indir,12,11
+Task,Backlog,Veri setini Edge Impulse'a uygun formatta düzenle,13,11
+Task,Backlog,Edge Impulse’a verileri yükle,14,11
+Epic,Backlog,Makine Öğrenmesi Modelinin Oluşturulması,15,
+Story,Backlog,"Bir geliştirici olarak, giriş ve işleme bloklarını tanımlayabilmem için Edge Impulse'da bir dürtü oluşturmak istiyorum.",16,15
+Task,Backlog,Impulse oluştur,17,16
+Task,Backlog,Input image size ve processing block ayarlarını yap,18,16
+Story,Backlog,"Bir geliştirici olarak, modeli ilgili girdilerle eğitebilmek için veri kümesinden özellikler üretmek istiyorum.",19,15
+Task,Backlog,Feature extraction işlemini başlat,20,19
+Story,Backlog,"Bir geliştirici olarak, ML modelini farklı çiçek sınıflarını tanıyabilecek şekilde eğitmek istiyorum.",21,15
+Task,Backlog,Modeli eğit,22,21
+Task,Backlog,Model doğruluk oranını kontrol et,23,21
+Epic,Backlog,Modelin ESP32-CAM Üzerine Dağıtılması ve Entegrasyonu,24,
+Task,Backlog,ESP32-CAM modülünün breadboard bağlantılarını yap ve pin düzenini kontrol et,25,24
+Story,Backlog,"Bir geliştirici olarak, eğitilmiş modeli ESP32-CAM'de çalıştırabilmek için C++'a dönüştürmek istiyorum.",26,24
+Task,Backlog,C++ Library olarak model export et,27,26
+Task,Backlog,Arduino IDE projesi oluştur,28,26
+Story,Backlog,"Bir geliştirici olarak, modelin cihazda çalıştığını doğrulayabilmek için ESP32-CAM üzerinde nesne algılamayı test etmek istiyorum.",29,24
+Task,Backlog,Modeli ESP32-CAM’e yükle,30,29
+Task,Backlog,Ekranda sonuçları göster,31,29
+Epic,Backlog,Performans Testleri ve Optimizasyon,32,
+Story,Backlog,"Bir geliştirici olarak, modelin sağlamlığını doğrulayabilmek için sistemi farklı ışık koşullarında test etmek istiyorum.",33,32
+Task,Backlog,Farklı ışık koşullarında test yap,34,33
+Story,Backlog,"Bir geliştirici olarak, ESP32-CAM'de enerji verimliliğini sağlayabilmek için güç kullanımını ölçmek istiyorum.",35,32
+Task,Backlog,Enerji tüketimini ölç,36,35
+Task,Backlog,Low-power modlarını dene,37,35
+Epic,Backlog,Belgelenme ve Açık Kaynak Paylaşımı,38,
+Story,Backlog,"Katkıda bulunan biri olarak başkalarının da anlayıp projeyi tekrarlayabilmesi için detaylı bir rapor hazırlamak istiyorum.",39,38
+Task,Backlog,Raporu yaz,40,39
+Task,Backlog,Test sonuçlarını belgele,41,39
+Story,Backlog,"Bir geliştirici olarak, topluluğun bundan faydalanabilmesi için projeyi GitHub'da yayınlamak istiyorum.",42,38
+Task,Backlog,GitHub reposu oluştur,43,42
+Task,Backlog,README dosyası yaz,44,42
+Story,Backlog,Bir geliştirici olarak, kod dallarının ve commit'lerin Jira'dan takip edilebilmesi için Jira'yı GitHub ile entegre etmek istiyorum,45,38
+Task,Backlog,GitHub projesini Jira ile entegre et (GitHub Smart Commits özelliğini yapılandır),46,45
+Task,Backlog,Bir task/story kartı için Git branch başlatılabildiğini test et,47,45
+Task,Backlog,Pull request açıldığında ilgili task ile eşleştiğini test et,48,45
+Task,Backlog,Merge işleminden sonra Jira kartı içinden commit mesajlarını kontrol et,49,45
