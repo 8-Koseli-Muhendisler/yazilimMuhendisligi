@@ -43,7 +43,7 @@ Task,Backlog,Test sonuçlarını belgele,41,39
 Story,Backlog,"Bir geliştirici olarak, topluluğun bundan faydalanabilmesi için projeyi GitHub'da yayınlamak istiyorum.",42,38
 Task,Backlog,GitHub reposu oluştur,43,42
 Task,Backlog,README dosyası yaz,44,42
-Story,Backlog,Bir geliştirici olarak, kod dallarının ve commit'lerin Jira'dan takip edilebilmesi için Jira'yı GitHub ile entegre etmek istiyorum,45,38
+Story,Backlog,"Bir geliştirici olarak, kod dallarının ve commit'lerin Jira'dan takip edilebilmesi için Jira'yı GitHub ile entegre etmek istiyorum",45,38
 Task,Backlog,GitHub projesini Jira ile entegre et (GitHub Smart Commits özelliğini yapılandır),46,45
 Task,Backlog,Bir task/story kartı için Git branch başlatılabildiğini test et,47,45
 Task,Backlog,Pull request açıldığında ilgili task ile eşleştiğini test et,48,45
