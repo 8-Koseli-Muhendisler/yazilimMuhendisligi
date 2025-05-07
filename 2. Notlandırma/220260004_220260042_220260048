@@ -40,7 +40,8 @@ Task’lar proje sürecindeki gerçek adımları yansıtan, eyleme dönük göre
 Tanımlanan issue'lar, takım üyelerinin uzmanlık alanlarına ve iş yüklerine göre atanmıştır.
 Her issue'ya Assignee belirlenmiş ve görev takibi başlatılmıştır.
 
-Ek-1: [YM25_Jira_Icerik.csv](https://github.com/8-Koseli-Muhendisler/yazilimMuhendisligi/blob/main/2.%20Notland%C4%B1rma/Jira_TinyML_Full_Issues.csv/)
+Ek-1: [Jira_TinyML_Full_Issues.csv](https://github.com/8-Koseli-Muhendisler/yazilimMuhendisligi/blob/main/2.%20Notland%C4%B1rma/Jira_TinyML_Full_Issues.csv)
+
 → Bu dosyada her bir öğe türü (issue type), başlığı, açıklaması, ilişkili olduğu parent issue bilgisi detaylı şekilde yer almaktadır.
 
 📌 Sonuç
