@@ -14,6 +14,8 @@ Bu sayede Epic > Story > Task ilişkileri Jira'ya elle tek tek girmek yerine do�
 2. CSV dosyası, Jira'nın "Import issues from CSV" özelliğiyle yüklenerek Kanban tahtasına yerleştirildi.
 Jira üzerinde "YM25" adında yeni bir yazılım projesi oluşturulmuştur.
 Proje tipi olarak Kanban şablonu seçilmiştir.
+Not: ilgili csv dosyasına (Jira_TinyML_Full_Issues.csv) bu dosyanın bulunduğu klasörden ulaşılabilir.
+→ Bu dosyada her bir öğe türü (issue type), başlığı, açıklaması, ilişkili olduğu parent issue bilgisi detaylı şekilde yer almaktadır.
 
 3. Takım Üyeleri
 Projede aktif olarak çalışan tüm ekip üyeleri daha önce Jira ortamına giriş yaptığı gmail hesabıyla projeye admin rolüyle eklenmiştir.
@@ -39,10 +41,6 @@ Task’lar proje sürecindeki gerçek adımları yansıtan, eyleme dönük göre
 7. Görev Atamaları
 Tanımlanan issue'lar, takım üyelerinin uzmanlık alanlarına ve iş yüklerine göre atanmıştır.
 Her issue'ya Assignee belirlenmiş ve görev takibi başlatılmıştır.
-
-Ek-1: [Jira_TinyML_Full_Issues.csv](https://raw.githubusercontent.com/8-Koseli-Muhendisler/yazilimMuhendisligi/refs/heads/main/2.%20Notland%C4%B1rma/Jira_TinyML_Full_Issues.csv)
-
-→ Bu dosyada her bir öğe türü (issue type), başlığı, açıklaması, ilişkili olduğu parent issue bilgisi detaylı şekilde yer almaktadır.
 
 📌 Sonuç
 Bu aşamada Jira ortamında projeye özel tüm iş kalemleri, doğru hiyerarşi ve isimlendirme ile oluşturulmuştur. Proje süreci, Kanban üzerinden ilerletilmeye hazır hale getirilmiştir. Kod geliştirme sırasında yapılacak olan GitHub entegrasyonu ile Jira kartları ve kod değişiklikleri senkronize olarak izlenebilir olacaktır.
