@@ -43,7 +43,7 @@ Task’lar proje sürecindeki gerçek adımları yansıtan, eyleme dönük göre
 Tanımlanan issue'lar, takım üyelerinin uzmanlık alanlarına ve iş yüklerine göre atanmıştır.
 Her issue'ya Assignee belirlenmiş ve görev takibi başlatılmıştır.
 
-📌 Sonuç
+>> Sonuç
 Bu aşamada Jira ortamında projeye özel tüm iş kalemleri, doğru hiyerarşi ve isimlendirme ile oluşturulmuştur.
 Proje süreci, Kanban üzerinden ilerletilmeye hazır hale getirilmiştir.
 Kod geliştirme sırasında yapılacak olan GitHub entegrasyonu ile Jira kartları ve kod değişiklikleri senkronize olarak izlenebilir olacaktır.
