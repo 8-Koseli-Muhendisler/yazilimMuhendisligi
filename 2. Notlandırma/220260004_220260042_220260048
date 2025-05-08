@@ -1,13 +1,13 @@
-📌2. Notlandırma Raporu: Jira Kanban'da Görev Tanımlama
+2. Notlandırma Raporu: Jira Kanban'da Görev Tanımlama
 Proje Adı: ESP32-CAM ile TinyML Tabanlı Nesne Tanıma Sistemi
 Tarih: [7.05.2025]
 Hazırlayan: [Hazan Yücel, Hacer Çadırcı, Esra Aslanboğa]
 
-🎯 Amaç
+Amaç
 Bu aşamada amacımız, projede yer alacak iş kalemlerini Agile proje yönetimi ilkeleri doğrultusunda planlamak ve Jira Kanban ortamına aktarmaktı.
 Böylece hem proje sürecinin takibi kolaylaşmış hem de kod geliştirme süreci ile proje yönetimi uyumlu hâle getirilmiş oldu.
 
-🔍 Yapılan Çalışmalar
+Yapılan Çalışmalar
 1. CSV dosyası biçiminde tüm Epic, Story ve Task’lar tanımlandı.
 Jira’nın desteklediği "Work type", "Summary", "Work item ID", "Parent" gibi sütunlarla yapılarak hiyerarşi korundu.
 Bu sayede Epic > Story > Task ilişkileri Jira'ya elle tek tek girmek yerine doğrudan aktarılabildi.
