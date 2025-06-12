@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>ESP32-CAM ile TinyML Tabanlı Nesne Tanıma</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: auto;
+      padding: 40px;
+      background: #f7f7f7;
+    }
+    h1 {
+      color: #3f51b5;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      margin-bottom: 30px;
+    }
+    img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>ESP32-CAM ile TinyML Tabanlı Nesne Tanıma Sistemi</h1>
+
+  <div class="card">
+    <h2>📌 Proje Amacı</h2>
+    <p>Bu projede, ESP32-CAM üzerinde çalışan TinyML (Tiny Machine Learning) destekli nesne tanıma sistemi geliştirildi. Amaç, düşük maliyetli bir cihazla görüntü işleme ve sınıflandırmayı gerçek zamanlı olarak yapabilmekti.</p>
+  </div>
+
+  <div class="card">
+    <h2>🧠 Kullanılan Teknolojiler</h2>
+    <ul>
+      <li>ESP32-CAM (AI-Thinker)</li>
+      <li>Edge Impulse Studio – FOMO (MobileNetV2) modeli</li>
+      <li>Arduino IDE</li>
+      <li>GitHub Actions + Vercel Deployment</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>📊 Model Bilgisi</h2>
+    <p>Model <b>FOMO</b> mimarisi ile eğitilmiştir. 5 farklı sınıf içermektedir: <i>Domates, Biber, Patlıcan, Havuç, Salatalık</i>. Başlangıçta F1 skoru %94'e ulaşmış, overfit engellenmek üzere optimizasyon sonrası %78'e sabitlenmiştir.</p>
+  </div>
+
+  <div class="card">
+    <h2>📷 Test Görüntüsü</h2>
+    <img src="images/kamera_test.jpg" alt="Kamera Test Görüntüsü">
+  </div>
+
+  <div class="card">
+    <h2>🧪 Diğer Sayfalar</h2>
+    <ul>
+      <li><a href="test_sonuclari.html">Test Sonuçları</a></li>
+      <li><a href="blok_diyagram.html">Sistem Blok Diyagramı</a></li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>👥 Takım Üyeleri</h2>
+    <ul>
+      <li>Ahmet – Model Eğitimi</li>
+      <li>Ayşe – Donanım Testleri</li>
+      <li>Zeynep – Web Arayüz & Deployment</li>
+    </ul>
+  </div>
+
+</body>
+</html>
